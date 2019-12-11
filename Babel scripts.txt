@@ -1,0 +1,12 @@
+must launch from within indecision-app folder
+
+
+live-server public
+
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+
+
+live-server public
+
+babel src/playground/es6.js --out-file=public/scripts/app.js --presets=env,react --watch
